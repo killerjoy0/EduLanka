@@ -336,3 +336,10 @@ a{
     background: #e97800;
     transform: scale(1.02);
 }
+@media (max-width: 500px) {
+    .papers-container {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        padding: 0 15px;
+    }
+}
